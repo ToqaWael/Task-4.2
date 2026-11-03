@@ -20,3 +20,17 @@
 .field-grid .readonly-input{background:#f6f4f8;color:#696278;cursor:default}
 .field-grid .email-helper{font-size:11px;color:#978fa2;font-weight:400;line-height:1.4}
 @media(max-width:600px){.detail-panel{padding:22px}.detail-meta{grid-template-columns:1fr}.detail-meta p{margin:6px 0}}
+
+/* Card: condition badge top-right, color coded */
+.stamp{left:12px;right:auto;z-index:1;border:1px solid transparent}
+.stamp.cond-new{background:#dff5e8;color:#17714d;border-color:#bfe8d1}
+.stamp.cond-like-new{background:#dcf1f5;color:#1a6577;border-color:#bde0e8}
+.stamp.cond-used{background:#fff1d6;color:#8a5a0a;border-color:#f3dcab}
+.stamp.cond-worn{background:#fde2e0;color:#a13b38;border-color:#f4c4c1}
+/* Card: seller name bottom-left */
+.costline .seller{color:#6d667d;font-weight:600;font-size:11px;max-width:55%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.costline .seller.mine{background:#efe8fb;color:#6947b4;padding:4px 10px;border-radius:100px;font-weight:800}
+/* Nav tabs */
+.navigation nav .nav-tab{padding:8px 4px;border-bottom:2px solid transparent;font-size:13px}
+.navigation nav .nav-tab.on{color:#7956c3;font-weight:700;border-bottom-color:#7956c3}
+@media(max-width:970px){.navigation nav{display:flex;gap:14px}}
